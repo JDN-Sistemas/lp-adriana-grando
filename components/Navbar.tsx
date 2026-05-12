@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 const navLinks = [
   { label: "Início", href: "#inicio" },
   { label: "Sobre", href: "#sobre" },
-  { label: "Como posso ajudar", href: "#servicos" },
+  { label: "Áreas de atuação", href: "#servicos" },
   { label: "Consultório", href: "#consultorio" },
   { label: "Depoimentos", href: "#depoimentos" },
   { label: "FAQ", href: "#faq" },
@@ -26,9 +26,9 @@ export default function Navbar() {
     <header
       className="fixed top-0 left-0 right-0 z-50 bg-[#3d1a28] shadow-sm"
     >
-      <nav className="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
-        {/* Logo — monograma AG + nome */}
-        <a href="#inicio" className="flex items-center gap-3">
+      <nav className="w-full px-6 h-20 relative flex items-center">
+        {/* Logo — fixado à esquerda */}
+        <a href="#inicio" className="flex items-center gap-3 shrink-0">
           <AgMonogram />
           <div className="flex flex-col leading-tight">
             <span
@@ -43,8 +43,8 @@ export default function Navbar() {
           </div>
         </a>
 
-        {/* Desktop Nav */}
-        <ul className="hidden lg:flex items-center gap-7">
+        {/* Desktop Nav — centralizado */}
+        <ul className="hidden lg:flex items-center gap-7 absolute left-1/2 -translate-x-1/2">
           {navLinks.map((link) => (
             <li key={link.href}>
               <a
@@ -59,7 +59,7 @@ export default function Navbar() {
 
         {/* Mobile menu button */}
         <button
-          className="lg:hidden p-2 text-white"
+          className="lg:hidden p-2 text-white ml-auto"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Menu"
         >

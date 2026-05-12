@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer id="contato" className="bg-[#3d1a28] text-white py-16 px-6">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-10">
+      <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-10 items-center">
         {/* Brand */}
         <div className="flex flex-col gap-3">
           <div className="flex items-center gap-3 mb-1">
@@ -15,13 +15,6 @@ export default function Footer() {
               <p className="text-white/50 text-xs tracking-widest uppercase">CRP 08/46974</p>
             </div>
           </div>
-          <p className="text-white/60 text-xs uppercase tracking-widest mt-1">
-            Psicoterapia de Casal
-          </p>
-          <p className="text-white/70 text-sm leading-relaxed mt-2">
-            Atendimento humanizado, online e presencial, para casais que desejam
-            fortalecer seu vínculo e construir uma relação mais saudável.
-          </p>
         </div>
 
         {/* Contact */}
@@ -82,7 +75,7 @@ export default function Footer() {
           className="flex items-center gap-1.5 text-white/60 hover:text-white transition-colors"
         >
           Desenvolvido por{" "}
-          <span className="text-primary font-semibold tracking-wide hover:text-primary-light transition-colors">
+          <span className="text-primary font-semibold tracking-wide">
             MoveOn Sistemas
           </span>
         </a>
