@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   title: "Adriana Grando | Psicoterapia de Casal",
   description:
     "Psicóloga especializada em Psicoterapia de Casal. CRP: 08/46974. Atendimento online e presencial em Toledo - PR. Agende sua consulta pelo WhatsApp.",
+  icons: {
+    icon: "/icon.svg",
+  },
 };
 
 export default function RootLayout({
