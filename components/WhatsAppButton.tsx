@@ -1,14 +1,21 @@
 interface WhatsAppButtonProps {
+  variant?: "default" | "light";
   className?: string;
 }
 
-export default function WhatsAppButton({ className = "" }: WhatsAppButtonProps) {
+export default function WhatsAppButton({ variant = "default", className = "" }: WhatsAppButtonProps) {
+  const base = "inline-flex items-center gap-3 border-2 px-8 py-3.5 rounded-full text-sm font-semibold tracking-wide transition-all duration-300";
+  const styles = {
+    default: "border-primary text-primary bg-transparent hover:bg-primary hover:text-white",
+    light:   "border-white text-white bg-transparent hover:bg-white hover:text-[#3d1a28]",
+  };
+
   return (
     <a
       href="https://wa.me/5545988306519"
       target="_blank"
       rel="noopener noreferrer"
-      className={`inline-flex items-center gap-3 border-2 border-primary text-primary bg-transparent hover:bg-primary hover:text-white px-8 py-3.5 rounded-full text-sm font-semibold tracking-wide transition-all duration-300 ${className}`}
+      className={`${base} ${styles[variant]} ${className}`}
     >
       <WhatsAppIcon />
       Agendar consulta pelo WhatsApp
