@@ -18,7 +18,7 @@ export default function HeroAboutSection() {
         </span>
 
         <div className="relative z-10 max-w-lg">
-          <p className="text-xs tracking-[0.25em] uppercase text-primary mb-5 font-medium">
+          <p className="text-xs tracking-[0.25em] uppercase text-white/70 mb-5 font-medium">
             Análise do Comportamento · FAP · Terapia Feminista
           </p>
 
@@ -27,7 +27,6 @@ export default function HeroAboutSection() {
             style={{ fontFamily: "var(--font-playfair)" }}
           >
             <span className="text-primary italic">Comunicação e intimidade</span>{" "}
-            no relacionamento.
           </h1>
 
           <p className="text-white/70 text-base lg:text-lg leading-relaxed mb-6">
