@@ -1,10 +1,9 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const navLinks = [
   { label: "Início", href: "#inicio" },
-  { label: "Sobre", href: "#sobre" },
   { label: "Áreas de atuação", href: "#servicos" },
   { label: "Consultório", href: "#consultorio" },
   { label: "Depoimentos", href: "#depoimentos" },
@@ -13,18 +12,12 @@ const navLinks = [
 ];
 
 export default function Navbar() {
-  const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 20);
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   return (
     <header
       className="fixed top-0 left-0 right-0 z-50 bg-[#3d1a28] shadow-sm"
+      style={{ borderBottom: "1px solid rgba(255,255,255,0.08)" }}
     >
       <nav className="w-full px-6 h-20 relative flex items-center">
         {/* Logo — fixado à esquerda */}
@@ -70,6 +63,15 @@ export default function Navbar() {
           </span>
         </button>
       </nav>
+
+      {/* Linha decorativa inferior */}
+      <div
+        className="absolute bottom-0 left-0 right-0 h-px"
+        style={{
+          background:
+            "linear-gradient(to right, transparent 0%, rgba(198,160,120,0.5) 30%, rgba(198,160,120,0.8) 50%, rgba(198,160,120,0.5) 70%, transparent 100%)",
+        }}
+      />
 
       {/* Mobile menu */}
       {menuOpen && (
