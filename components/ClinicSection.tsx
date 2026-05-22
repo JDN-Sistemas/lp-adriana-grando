@@ -2,15 +2,15 @@ import Image from "next/image";
 
 const clinicPhotos = [
   {
-    src: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80",
+    src: "/espaco.jpeg",
     alt: "Sala de espera do consultório",
   },
   {
-    src: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=600&q=80",
+    src: "/espaco2.jpeg",
     alt: "Consultório principal",
   },
   {
-    src: "https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=600&q=80",
+    src: "/espaço3.jpeg",
     alt: "Ambiente aconchegante",
   },
 ];

@@ -44,7 +44,7 @@ export default function HeroAboutSection() {
           style={{ fontFamily: "var(--font-playfair)" }}
         >
           <span className="text-white">Comunicação</span>{" "}
-          <span className="text-primary italic">e intimidade</span>{" "}
+          <span className="text-primary italic">e intimidade</span>{" "}''
         </h1>
 
         <p className="text-white/70 text-sm sm:text-base leading-relaxed mb-6">
