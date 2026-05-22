@@ -64,6 +64,14 @@ export default function HeroAboutSection() {
           ))}
         </div>
 
+        {/* Botão visível apenas em sm+ no fluxo normal */}
+        <div className="hidden sm:block">
+          <WhatsAppButton variant="light" />
+        </div>
+      </div>
+
+      {/* Botão fixo no fundo apenas no mobile */}
+      <div className="absolute bottom-20 left-8 z-10 sm:hidden">
         <WhatsAppButton variant="light" />
       </div>
     </section>

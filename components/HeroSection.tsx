@@ -4,7 +4,7 @@ export default function HeroSection() {
   return (
     <section
       id="inicio"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      className="relative min-h-screen flex items-end sm:items-center justify-center overflow-hidden"
     >
       {/* Background image with blur */}
       <div
@@ -20,7 +20,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-blush/65" />
 
       {/* Content */}
-      <div className="relative z-10 text-center px-6 max-w-3xl mx-auto">
+      <div className="relative z-10 text-center px-6 max-w-3xl mx-auto pb-36 sm:pb-0">
         <p
           className="text-sm tracking-[0.2em] uppercase text-[--color-primary] mb-4 font-medium"
           style={{ fontFamily: "var(--font-sans)" }}
