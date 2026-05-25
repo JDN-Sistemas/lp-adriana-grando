@@ -43,13 +43,12 @@ export default function HeroAboutSection() {
           className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-6 text-white"
           style={{ fontFamily: "var(--font-playfair)" }}
         >
-          <span className="text-white">Comunicação</span>{" "}
-          <span className="text-primary italic">e intimidade</span>{" "}''
+          <span className="text-white">Toda relação amorosa</span>{" "}
+          <span className="text-primary italic">tem uma história.</span>
         </h1>
 
         <p className="text-white/70 text-sm sm:text-base leading-relaxed mb-6">
-          Terapia para <strong className="text-white">casais ou individual</strong> com foco em vínculos
-          afetivos, comunicação saudável e autoconhecimento.
+          Eu posso te ajudar a compreender como a sua vem sendo construída.
           Atendimento <strong className="text-white">online e presencial</strong> em Toledo – PR.
         </p>
 

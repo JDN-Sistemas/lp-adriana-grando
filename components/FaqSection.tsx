@@ -5,34 +5,24 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 
 const faqs = [
   {
-    question: "A terapia de casal é só para relacionamentos em crise?",
+    question: "Quanto tempo dura a sessão de psicoterapia de casal?",
     answer:
-      "Não! A psicoterapia de casal pode ser muito útil em qualquer momento do relacionamento — seja para resolver conflitos pontuais, aprofundar a conexão, melhorar a comunicação ou simplesmente investir na qualidade da relação. Casais que se amam e querem crescer juntos também se beneficiam muito da terapia.",
+      "As sessões de psicoterapia de casal têm duração aproximada de 90 minutos. Quando necessário, também podem ser realizadas sessões individuais com uma das pessoas do casal. Nesses casos, a duração é de aproximadamente 50 minutos.",
   },
   {
-    question: "Quanto tempo dura cada sessão?",
+    question: "O atendimento pode ser online?",
     answer:
-      "Cada sessão tem duração de 50 a 60 minutos. A frequência recomendada é semanal, especialmente no início do processo, podendo ser ajustada conforme o desenvolvimento do casal.",
+      "Sim. Os atendimentos podem ser realizados de forma online, por videochamada pelo WhatsApp ou pelo Google Meet, conforme a preferência e a necessidade do casal.",
   },
   {
-    question: "Como funcionam as sessões online?",
+    question: "Você atende por convênio?",
     answer:
-      "As sessões online são realizadas por videochamada via Google Meet ou Zoom. Basta ter um dispositivo com câmera, microfone e conexão à internet. O processo é igualmente eficaz no formato remoto — muitos casais preferem justamente pela praticidade.",
+      "No momento, os atendimentos são realizados apenas de forma particular, sem atendimento por convênios.",
   },
   {
-    question: "E se um dos dois não quiser fazer terapia?",
+    question: "Qual é o valor da sessão?",
     answer:
-      "Essa é uma situação comum. Às vezes um parceiro está mais resistente do que o outro. Nesse caso, podemos começar com sessões individuais para quem tem interesse, o que muitas vezes ajuda o outro a se abrir para o processo. Conversamos sobre isso no primeiro contato.",
-  },
-  {
-    question: "Atende por convênio ou plano de saúde?",
-    answer:
-      "No momento, o atendimento é particular. Posso emitir recibo para quem deseja solicitar reembolso junto ao plano de saúde — verifique as condições com a sua operadora.",
-  },
-  {
-    question: "Como faço para agendar uma consulta?",
-    answer:
-      "É simples! Clique no botão abaixo e me chame no WhatsApp. Responderei em breve para conversarmos sobre a disponibilidade de horários e tirar qualquer dúvida antes de começarmos.",
+      "O valor dos atendimentos é informado diretamente pelo WhatsApp, para que eu possa explicar melhor o funcionamento do processo terapêutico e tirar possíveis dúvidas antes do agendamento.",
   },
 ];
 

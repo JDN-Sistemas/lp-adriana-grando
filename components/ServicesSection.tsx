@@ -3,39 +3,39 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 const services = [
   {
     icon: "💬",
-    title: "Comunicação no Casal",
+    title: "Comunicação e conflitos",
     description:
-      "Aprenda a expressar sentimentos, ouvir com empatia e criar um diálogo que fortaleça a conexão entre vocês.",
+      "Dificuldades de comunicação, brigas frequentes e formas de expressar sentimentos com mais clareza e respeito.",
   },
   {
     icon: "💛",
-    title: "Crise Conjugal",
+    title: "Afastamento e intimidade",
     description:
-      "Suporte para casais que estão em um momento difícil, ajudando a identificar o que está por trás dos conflitos e encontrar novos caminhos.",
+      "Afastamento emocional, perda de intimidade e reconstrução da conexão e da cumplicidade no relacionamento.",
   },
   {
     icon: "🌿",
-    title: "Reconstrução após Infidelidade",
+    title: "Ciúmes e inseguranças",
     description:
-      "Um espaço seguro para processar a dor, reconstruir a confiança e decidir juntos qual caminho desejam seguir.",
+      "Ciúmes, inseguranças e dificuldades para confiar, compreendendo os padrões que alimentam esses sentimentos.",
   },
   {
     icon: "🌱",
-    title: "Transições de Vida a Dois",
+    title: "Crise e reconstrução",
     description:
-      "Apoio em fases como chegada de filhos, mudanças de carreira, separação ou qualquer transição que impacta o relacionamento.",
+      "Crises na relação, reconstrução de confiança e decisões sobre continuidade ou término com clareza e cuidado.",
   },
   {
     icon: "🤝",
-    title: "Fortalecimento do Vínculo",
+    title: "Planejamento a dois",
     description:
-      "Para casais que se amam, mas querem aprofundar a conexão emocional, a intimidade e a cumplicidade no dia a dia.",
+      "Planejamento de vida a dois, planejamento familiar, adaptação a novas fases e construção de acordos mais saudáveis.",
   },
   {
     icon: "⚖️",
-    title: "Separação Consciente",
+    title: "Fortalecimento do vínculo",
     description:
-      "Quando a decisão de separar já foi tomada, a terapia ajuda a encerrar o ciclo com respeito, cuidado e clareza.",
+      "Prevenção de conflitos futuros, fortalecimento da parceria e do vínculo para casais que desejam crescer juntos.",
   },
 ];
 
