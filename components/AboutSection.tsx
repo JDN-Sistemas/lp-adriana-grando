@@ -8,7 +8,7 @@ export default function AboutSection() {
         <div className="flex justify-center">
           <div className="relative w-full max-w-sm aspect-3/4 rounded-2xl overflow-hidden shadow-md">
             <Image
-              src="/adriana-grandoo.jpeg"
+              src="/adriana-grando2.jpeg"
               alt="Psicóloga Adriana Grando"
               fill
               className="object-cover object-[center_20%]"

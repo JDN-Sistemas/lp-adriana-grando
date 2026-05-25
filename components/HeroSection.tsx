@@ -11,9 +11,7 @@ export default function HeroSection() {
         className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1586105251261-72a756497a11?w=1600&q=80')",
-          filter: "blur(3px)",
-          transform: "scale(1.05)",
+            "url('/espaco.jpeg')",
         }}
       />
       {/* Overlay rosé */}
