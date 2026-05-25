@@ -58,10 +58,10 @@ export default function ClinicSection() {
         <div className="text-center mt-10 flex flex-col gap-2">
           <p className="text-muted text-sm flex items-center justify-center gap-2">
             <span>📍</span>
-            <span>Toledo – PR | Atendimento online e presencial</span>
+            <span>Edifício Tívoli – R. Nossa Sra. Do Rocio, 1817 – Centro, Toledo – PR, 85900-180, Sala 25, 2º andar</span>
           </p>
           <p className="text-muted text-sm">
-            Sessões online via Google Meet ou Zoom — do conforto da sua casa
+            Sessões online via WhatsApp ou Google Meet — do conforto da sua casa
           </p>
         </div>
       </div>

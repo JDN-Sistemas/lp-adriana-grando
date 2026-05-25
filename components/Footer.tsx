@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer id="contato" className="bg-[#3d1a28] text-white py-16 px-6">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-10 items-center">
+      <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-[1fr_2fr_1fr] gap-10 items-center">
         {/* Brand */}
         <div className="flex flex-col gap-3">
           <div className="flex items-center gap-3 mb-1">
@@ -32,9 +32,16 @@ export default function Footer() {
               <span>📱</span>
               <span>(45) 98830-6519</span>
             </a>
+            <a
+              href="mailto:psi.adrigrando@gmail.com"
+              className="flex items-center gap-2 text-sm text-white/80 hover:text-white transition-colors"
+            >
+              <span>✉️</span>
+              <span>psi.adrigrando@gmail.com</span>
+            </a>
             <p className="flex items-center gap-2 text-sm text-white/80">
               <span>📍</span>
-              <span>Toledo – PR<br />Atendimento online e presencial</span>
+              <span>Edifício Tívoli – R. Nossa Sra. Do Rocio, 1817<br />Sala 25, 2º andar – Centro, Toledo – PR</span>
             </p>
           </div>
         </div>

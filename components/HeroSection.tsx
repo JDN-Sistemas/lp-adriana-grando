@@ -33,16 +33,16 @@ export default function HeroSection() {
           style={{ fontFamily: "var(--font-playfair)" }}
         >
           <span className="text-[--color-primary]">
-            Um espaço seguro
+            Toda relação amorosa
           </span>{" "}
           <span className="text-[--color-dark]">
-            para cuidar do seu relacionamento.
+            tem uma história.
           </span>
         </h1>
 
         <p className="text-base md:text-lg text-[--color-dark]/80 mb-10 max-w-xl mx-auto leading-relaxed">
-          Atendimento humanizado, online e presencial, para casais que desejam
-          fortalecer seu vínculo e construir uma relação mais saudável e feliz.
+          Eu posso te ajudar a compreender como a sua vem sendo construída.
+          Atendimento online e presencial em Toledo – PR.
         </p>
 
         <WhatsAppButton />
