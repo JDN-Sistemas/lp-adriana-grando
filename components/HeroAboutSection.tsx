@@ -10,10 +10,10 @@ export default function HeroAboutSection() {
       {/* Foto — à direita, centralizada, fundindo com o fundo */}
       <div className="absolute right-0 top-0 bottom-0 w-full sm:w-[65%] lg:w-[55%]">
         <Image
-          src="/adriana-grandoo.jpeg"
+          src="/adriana-grando3.jpeg"
           alt="Psicóloga Adriana Grando"
           fill
-          className="object-cover object-top"
+          className="object-cover object-[center_20%]"
           priority
           sizes="(max-width: 640px) 100vw, 55vw"
         />
