@@ -1,21 +1,21 @@
 const testimonials = [
   {
-    name: "Camila e Rafael",
+    name: "C. e R.",
     text: "A terapia com a Adriana foi um divisor de águas no nosso relacionamento. Aprendemos a nos ouvir de verdade e a resolver conflitos sem machucar um ao outro. Recomendamos muito!",
     stars: 5,
   },
   {
-    name: "Mariana e Lucas",
+    name: "M. e L.",
     text: "Chegamos no limite, achando que ia terminar. A Adriana nos ajudou a entender o que estava acontecendo de verdade e hoje estamos mais unidos do que nunca. Gratidão enorme!",
     stars: 5,
   },
   {
-    name: "Fernanda e João",
+    name: "F. e J.",
     text: "O atendimento online funcionou perfeitamente. A Adriana cria um ambiente tão acolhedor que a gente esquece que está em casa. Profissional incrível e muito humana.",
     stars: 5,
   },
   {
-    name: "Juliana e Pedro",
+    name: "J. e P.",
     text: "Estávamos passando por um momento muito difícil depois de uma traição. A Adriana nos conduziu com muita delicadeza. Conseguimos reconstruir nossa relação com mais maturidade.",
     stars: 5,
   },

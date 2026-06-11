@@ -1,6 +1,6 @@
 import Navbar from "@/components/Navbar";
-import HeroSection from "@/components/HeroSection";
-import AboutSection from "@/components/AboutSection";
+import HeroAboutSection from "@/components/HeroAboutSection";
+import PsychologistBioSection from "@/components/PsychologistBioSection";
 import ServicesSection from "@/components/ServicesSection";
 import ClinicSection from "@/components/ClinicSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
@@ -13,8 +13,8 @@ export default function Home() {
     <>
       <Navbar />
       <main>
-        <HeroSection />
-        <AboutSection />
+        <HeroAboutSection />
+        <PsychologistBioSection />
         <ServicesSection />
         <ClinicSection />
         <TestimonialsSection />
