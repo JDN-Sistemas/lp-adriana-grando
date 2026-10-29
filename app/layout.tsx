@@ -19,7 +19,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Adriana Grando | Psicoterapia de Casal",
   description:
-    "Psicóloga especializada em Psicoterapia de Casal. CRP: 08/46974. Atendimento online e presencial em Toledo - PR. Agende sua consulta pelo WhatsApp.",
+    "Psicoterapia de casal com base na IBCT. Adriana Grando, psicóloga CRP 08/46974. Atendimento presencial em Toledo-PR e online em todo o Brasil. Agende pelo WhatsApp.",
   icons: {
     icon: "/icon.svg",
   },

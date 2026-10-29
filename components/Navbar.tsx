@@ -4,10 +4,10 @@ import { useState } from "react";
 
 const navLinks = [
   { label: "Início", href: "#inicio" },
-  { label: "Áreas de atuação", href: "#servicos" },
+  { label: "Quando buscar", href: "#quando-buscar" },
+  { label: "Como funciona", href: "#como-funciona" },
   { label: "Consultório", href: "#consultorio" },
-  { label: "Depoimentos", href: "#depoimentos" },
-  { label: "FAQ", href: "#faq" },
+  { label: "Dúvidas", href: "#faq" },
   { label: "Contato", href: "#contato" },
 ];
 

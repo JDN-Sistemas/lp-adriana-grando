@@ -3,56 +3,47 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 const services = [
   {
     icon: "💬",
-    title: "Comunicação e conflitos",
+    title: "Conflitos que sempre chegam ao mesmo lugar",
     description:
-      "Dificuldades de comunicação, brigas frequentes e formas de expressar sentimentos com mais clareza e respeito.",
+      "Discussões que mudam de assunto, mas repetem a mesma dinâmica entre vocês.",
   },
   {
-    icon: "💛",
-    title: "Afastamento e intimidade",
+    icon: "❤️",
+    title: "Uma relação que virou administração da rotina",
     description:
-      "Afastamento emocional, perda de intimidade e reconstrução da conexão e da cumplicidade no relacionamento.",
+      "A vida funciona, mas intimidade, presença e parceria começaram a perder espaço.",
   },
   {
-    icon: "🌿",
-    title: "Ciúmes e inseguranças",
+    icon: "🤍",
+    title: "Afastamento e perda de conexão",
     description:
-      "Ciúmes, inseguranças e dificuldades para confiar, compreendendo os padrões que alimentam esses sentimentos.",
+      "Vocês convivem, mas a sensação é de distância emocional e pouca cumplicidade.",
   },
   {
-    icon: "🌱",
-    title: "Crise e reconstrução",
+    icon: "🔒",
+    title: "Quebra de confiança",
     description:
-      "Crises na relação, reconstrução de confiança e decisões sobre continuidade ou término com clareza e cuidado.",
+      "Algo aconteceu e a relação precisa de um espaço cuidadoso para compreender o que foi vivido.",
   },
   {
-    icon: "🤝",
-    title: "Planejamento a dois",
+    icon: "🧭",
+    title: "Decisões importantes sobre o futuro",
     description:
-      "Planejamento de vida a dois, planejamento familiar, adaptação a novas fases e construção de acordos mais saudáveis.",
-  },
-  {
-    icon: "⚖️",
-    title: "Fortalecimento do vínculo",
-    description:
-      "Prevenção de conflitos futuros, fortalecimento da parceria e do vínculo para casais que desejam crescer juntos.",
+      "Momentos de definição sobre continuidade, família ou novos projetos, que pedem clareza a dois.",
   },
 ];
 
 export default function ServicesSection() {
   return (
-    <section id="servicos" className="py-24 px-6 bg-white">
+    <section id="quando-buscar" className="py-24 px-6 bg-white">
       <div className="max-w-5xl mx-auto">
         {/* Header */}
         <div className="text-center mb-14">
-          <span className="section-badge mb-5 block mx-auto w-fit">
-            Como posso ajudar
-          </span>
           <h2
-            className="text-4xl md:text-5xl font-semibold text-dark"
+            className="text-3xl md:text-5xl font-semibold text-dark"
             style={{ fontFamily: "var(--font-playfair)" }}
           >
-            Áreas de atuação
+            Quando a terapia de casal pode fazer sentido
           </h2>
           <div className="mt-4 w-12 h-0.5 bg-primary mx-auto" />
         </div>
@@ -62,18 +53,20 @@ export default function ServicesSection() {
           {services.map((service) => (
             <div
               key={service.title}
-              className="bg-blush rounded-2xl p-7 flex flex-col gap-3 hover:shadow-md transition-shadow duration-300"
+              className="bg-blush rounded-2xl p-7 flex gap-5 hover:shadow-md transition-shadow duration-300"
             >
-              <span className="text-3xl">{service.icon}</span>
-              <h3
-                className="text-lg font-semibold text-dark"
-                style={{ fontFamily: "var(--font-playfair)" }}
-              >
-                {service.title}
-              </h3>
-              <p className="text-sm text-muted leading-relaxed">
-                {service.description}
-              </p>
+              <span className="text-3xl shrink-0">{service.icon}</span>
+              <div className="flex flex-col gap-2">
+                <h3
+                  className="text-lg font-semibold text-dark leading-snug"
+                  style={{ fontFamily: "var(--font-playfair)" }}
+                >
+                  {service.title}
+                </h3>
+                <p className="text-sm text-muted leading-relaxed">
+                  {service.description}
+                </p>
+              </div>
             </div>
           ))}
         </div>

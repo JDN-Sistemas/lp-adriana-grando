@@ -34,43 +34,36 @@ export default function HeroAboutSection() {
       </span>
 
       {/* Texto — à esquerda, sobre o fundo */}
-      <div className="relative z-10 pl-8 pr-6 sm:pl-16 lg:pl-32 xl:pl-48 pt-24 pb-12 lg:py-0 max-w-2xl lg:max-w-3xl">
-        <p className="text-[10px] sm:text-xs tracking-[0.25em] uppercase text-white/70 mb-2 font-medium leading-relaxed">
-          Psicoterapia de Casal em Toledo-PR<br />
-          Atendimento presencial e online com Adriana Grando, Psicóloga CRP-PR 08/46974
+      <div className="relative z-10 pl-8 pr-6 sm:pl-16 lg:pl-32 xl:pl-48 pt-64 sm:pt-24 pb-12 lg:py-0 max-w-2xl lg:max-w-3xl">
+        <p className="text-[10px] sm:text-xs tracking-[0.25em] uppercase text-white/70 mb-3 font-medium leading-relaxed">
+          Psicoterapia de Casal · IBCT · Online em todo o Brasil
         </p>
 
         <h1
-          className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-6 text-white"
+          className="text-4xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-6 text-white"
           style={{ fontFamily: "var(--font-playfair)" }}
         >
-          <span className="text-white">Toda relação amorosa</span>{" "}
-          <span className="text-primary italic">tem uma história.</span>
+          <span className="text-white">Quando a vida funciona, mas a relação</span>{" "}
+          <span className="text-primary italic">entrou em crise.</span>
         </h1>
 
-        <p className="text-white/70 text-sm sm:text-base leading-relaxed mb-6">
-          Eu posso te ajudar a compreender como a sua vem sendo construída.
+        <p className="text-white/80 text-sm sm:text-base leading-relaxed mb-6">
+          Psicoterapia de casal para relações atravessadas por conflitos persistentes,
+          afastamento, quebra de confiança ou decisões importantes — especialmente entre
+          casais que conciliam carreira, família e grandes responsabilidades.
         </p>
 
         <div className="flex flex-wrap gap-2 mb-8">
-          {["Terapia de Casal", "Atendimento Individual", "Online e Presencial"].map((tag) => (
+          {["IBCT", "Online em todo o Brasil", "Presencial em Toledo-PR"].map((tag) => (
             <span
               key={tag}
-              className="text-[10px] sm:text-xs border border-white/30 text-white/70 px-3 py-1 rounded-full"
+              className="text-[10px] sm:text-xs border border-white/30 text-white/80 px-4 py-1.5 rounded-full"
             >
               {tag}
             </span>
           ))}
         </div>
 
-        {/* Botão visível apenas em sm+ no fluxo normal */}
-        <div className="hidden sm:block">
-          <WhatsAppButton variant="light" />
-        </div>
-      </div>
-
-      {/* Botão fixo no fundo apenas no mobile */}
-      <div className="absolute bottom-20 left-8 z-10 sm:hidden">
         <WhatsAppButton variant="light" />
       </div>
     </section>

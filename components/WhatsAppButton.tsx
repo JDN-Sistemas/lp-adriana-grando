@@ -18,7 +18,7 @@ export default function WhatsAppButton({ variant = "default", className = "" }: 
       className={`${base} ${styles[variant]} ${className}`}
     >
       <WhatsAppIcon />
-      Agendar consulta pelo WhatsApp
+      Agendar atendimento pelo WhatsApp
     </a>
   );
 }

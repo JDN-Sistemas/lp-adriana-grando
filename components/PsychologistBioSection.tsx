@@ -15,25 +15,25 @@ export default function PsychologistBioSection() {
         </h2>
 
         <p className="text-dark/75 text-base leading-relaxed max-w-2xl">
-          Graduada pela <strong className="text-dark">PUCPR</strong> com menção honrosa, atuo como
-          psicoterapeuta de casais com base na{" "}
-          <strong className="text-dark">Análise do Comportamento e na FAP</strong> — uma abordagem
-          que compreende a relação terapêutica como um espaço vivo, seguro e acolhedor, onde novas
-          formas de se relacionar podem surgir.
+          Sou psicóloga e psicoterapeuta de casais, graduada pela{" "}
+          <strong className="text-dark">PUCPR</strong> com menção honrosa. Minha atuação clínica é
+          orientada pela <strong className="text-dark">Análise do Comportamento</strong> e pelas{" "}
+          <strong className="text-dark">Terapias Comportamentais Contextuais</strong>, com ênfase na{" "}
+          <strong className="text-dark">Terapia Comportamental Integrativa de Casal (IBCT)</strong>.
         </p>
 
         <p className="text-dark/75 text-base leading-relaxed max-w-2xl">
-          Meu trabalho é oferecer escuta e orientação sem julgamentos, considerando a história,
-          os valores e a singularidade de cada casal — para que construam juntos caminhos mais
-          saudáveis e satisfatórios.
+          Meu trabalho busca compreender os padrões de interação que mantêm conflitos, afastamento
+          e sofrimento na relação, integrando aceitação e mudança a partir da formulação específica
+          de cada casal.
         </p>
 
         <div className="flex flex-wrap justify-center gap-3 mt-2">
           {[
+            "IBCT",
+            "Terapias Comportamentais Contextuais",
             "Análise do Comportamento",
-            "FAP",
-            "Terapia Feminista",
-            "Online e Presencial",
+            "Online em todo o Brasil",
           ].map((tag) => (
             <span
               key={tag}
